@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Actions Watchdog</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400;500&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--cream:#FEF9EF;--paper:#FBF4E6;--ink:#1A1A2E;--ink-light:#2D2D44;--muted:#8B7E6A;--rule:#D4C9B5;--rule-light:#E8DFD0;--red:#BB1122;--red-light:#FFF0F0;--green:#1A6B4A;--green-light:#F0FBF5;--amber:#A86B00;--amber-light:#FFFBF0;--serif:'Playfair Display',Georgia,serif;--body:'Libre Baskerville',Georgia,serif;--mono:'DM Mono','Courier New',monospace}
+html{font-size:15px}
+body{background:var(--cream);color:var(--ink);font-family:var(--body);line-height:1.6;-webkit-font-smoothing:antialiased}
+body::before{content:'';position:fixed;inset:0;background:url("data:image/svg+xml,%3Csvg width='200' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");pointer-events:none;z-index:100}
+.masthead{text-align:center;padding:2rem 1.5rem 1.5rem;border-bottom:3px double var(--rule);max-width:1000px;margin:0 auto}
+.masthead .dateline{font-family:var(--mono);font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.2em;margin-bottom:.5rem}
+.masthead h1{font-family:var(--serif);font-size:clamp(2rem,5vw,3.2rem);font-weight:900;letter-spacing:.04em;text-transform:uppercase;line-height:1;margin-bottom:.4rem}
+.masthead .subtitle{font-family:var(--body);font-style:italic;font-size:.85rem;color:var(--muted)}
+.masthead .edition{font-family:var(--mono);font-size:.6rem;color:var(--muted);margin-top:.6rem;letter-spacing:.15em;text-transform:uppercase}
+.ticker-wrap{background:var(--ink);color:var(--cream);overflow:hidden;height:32px;line-height:32px;border-bottom:1px solid var(--rule)}
+.ticker{display:inline-block;white-space:nowrap;animation:scroll 60s linear infinite;font-family:var(--mono);font-size:.7rem;letter-spacing:.02em}
+.ticker .item{padding:0 2rem}
+.ticker .dot{color:var(--green)}.ticker .dot.alert{color:var(--red)}
+@keyframes scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.container{max-width:1000px;margin:0 auto;padding:0 1.5rem}
+.breaking{background:var(--red);color:white;text-align:center;padding:.6rem 1rem;font-family:var(--serif);font-weight:700;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;display:none}
+.breaking.active{display:block}
+.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-bottom:1px solid var(--rule);margin:1.5rem 0}
+.summary .stat{text-align:center;padding:1.2rem .5rem;border-right:1px solid var(--rule-light)}
+.summary .stat:last-child{border-right:none}
+.summary .stat .number{font-family:var(--serif);font-size:2.2rem;font-weight:800;line-height:1}
+.summary .stat .number.green{color:var(--green)}.summary .stat .number.red{color:var(--red)}.summary .stat .number.amber{color:var(--amber)}
+.summary .stat .label{font-family:var(--mono);font-size:.55rem;text-transform:uppercase;letter-spacing:.15em;color:var(--muted);margin-top:.3rem}
+.section-rule{border:none;border-top:1px solid var(--rule);margin:2rem 0 .5rem}
+.section-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1rem}
+.section-head h2{font-family:var(--serif);font-size:1.4rem;font-weight:700;letter-spacing:.02em}
+.section-head .aside{font-family:var(--mono);font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
+.registry{width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:2rem}
+.registry thead{border-bottom:2px solid var(--ink)}
+.registry th{font-family:var(--mono);font-size:.58rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);text-align:left;padding:.4rem .6rem;font-weight:500;white-space:nowrap;cursor:pointer;user-select:none}
+.registry th:hover{color:var(--ink)}
+.registry td{padding:.45rem .6rem;border-bottom:1px solid var(--rule-light);vertical-align:middle}
+.registry tr:hover td{background:rgba(26,26,46,.02)}
+.registry .action-name{font-family:var(--body);font-weight:700;font-size:.85rem}
+.registry .action-name .owner{color:var(--muted);font-weight:400}
+.registry .tag{font-family:var(--mono);font-size:.75rem;background:var(--paper);padding:1px 6px;border-radius:2px;border:1px solid var(--rule-light)}
+.registry .sha{font-family:var(--mono);font-size:.7rem;color:var(--muted)}
+.status-badge{display:inline-flex;align-items:center;gap:.3rem;font-family:var(--mono);font-size:.65rem;font-weight:500;text-transform:uppercase;letter-spacing:.08em;padding:2px 8px;border-radius:2px}
+.status-badge.ok{background:var(--green-light);color:var(--green)}
+.status-badge.changed{background:var(--red-light);color:var(--red)}
+.status-badge.unknown{background:var(--amber-light);color:var(--amber)}
+.status-badge::before{content:'';width:6px;height:6px;border-radius:50%;background:currentColor}
+.events-log{font-family:var(--mono);font-size:.75rem;line-height:1.8;border-left:2px solid var(--rule);padding-left:1rem;margin-bottom:2rem}
+.events-log .event{padding:.3rem 0;border-bottom:1px dotted var(--rule-light)}
+.events-log .event .time{color:var(--muted);font-size:.65rem}
+.events-log .event .action{font-weight:500}
+.events-log .empty{color:var(--muted);font-style:italic;font-family:var(--body)}
+.colophon{text-align:center;padding:2rem 1rem;border-top:3px double var(--rule);margin-top:2rem;font-size:.75rem;color:var(--muted);line-height:1.8}
+.colophon a{color:var(--ink);text-decoration:underline;text-underline-offset:2px}
+.colophon .mark{font-family:var(--serif);font-weight:700;font-size:1rem;color:var(--ink);letter-spacing:.06em;display:block;margin-bottom:.4rem}
+.filters{display:flex;gap:.5rem;margin-bottom:1rem;flex-wrap:wrap}
+.filter-btn{font-family:var(--mono);font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;padding:.35rem .8rem;border:1px solid var(--rule);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s}
+.filter-btn:hover{border-color:var(--ink);color:var(--ink)}
+.filter-btn.active{background:var(--ink);color:var(--cream);border-color:var(--ink)}
+@media(max-width:640px){.summary{grid-template-columns:repeat(2,1fr)}.registry th:nth-child(4),.registry td:nth-child(4){display:none}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+.live-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--green);animation:pulse 2s ease-in-out infinite;margin-right:.4rem;vertical-align:middle}
+</style>
+</head>
+<body>
+<div class="ticker-wrap"><div class="ticker" id="ticker"></div></div>
+<div class="breaking" id="breaking">BREAKING — Tag repointing detected. See events log below.</div>
+<div class="container">
+  <div class="masthead">
+    <div class="dateline" id="dateline"></div>
+    <h1>The Actions Watchdog</h1>
+    <div class="subtitle">Continuous integrity monitoring for the GitHub Actions supply chain</div>
+    <div class="edition"><span class="live-dot"></span> Live — polling every 5 minutes — <span id="poll-count">0</span> polls completed</div>
+  </div>
+  <div class="summary">
+    <div class="stat"><div class="number" id="total-monitored">—</div><div class="label">Actions Monitored</div></div>
+    <div class="stat"><div class="number green" id="total-ok">—</div><div class="label">Verified Safe</div></div>
+    <div class="stat"><div class="number red" id="total-changed">—</div><div class="label">Tags Changed</div></div>
+    <div class="stat"><div class="number amber" id="total-unknown">—</div><div class="label">Unreachable</div></div>
+  </div>
+  <hr class="section-rule">
+  <div class="section-head"><h2>Events Log</h2><div class="aside">Detected tag changes</div></div>
+  <div class="events-log" id="events-log"><div class="empty">No tag changes detected. All monitored actions are intact.</div></div>
+  <hr class="section-rule">
+  <div class="section-head"><h2>Registry</h2><div class="aside" id="last-checked"></div></div>
+  <div class="filters" id="filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="github">GitHub First-Party</button>
+    <button class="filter-btn" data-filter="docker">Docker</button>
+    <button class="filter-btn" data-filter="security">Security</button>
+    <button class="filter-btn" data-filter="cloud">Cloud Credentials</button>
+    <button class="filter-btn" data-filter="third-party">Third-Party</button>
+    <button class="filter-btn" data-filter="canary">Previously Compromised</button>
+  </div>
+  <table class="registry" id="registry">
+    <thead><tr><th data-sort="repo">Action</th><th data-sort="tag">Tag</th><th data-sort="status">Status</th><th data-sort="sha">Current SHA</th><th data-sort="last_checked">Last Checked</th></tr></thead>
+    <tbody id="registry-body"></tbody>
+  </table>
+</div>
+<div class="container">
+  <div class="colophon">
+    <span class="mark">PINPOINT</span>
+    Powered by <a href="https://github.com/tehreet/pinpoint">pinpoint</a>. Single Go binary. Zero dependencies.<br>
+    Monitoring the top 50 most-used GitHub Actions across 40 organizations.<br>
+    All data is public. Every number is independently verifiable.
+  </div>
+</div>
+<script>
+const CAT={'actions/':'github','docker/':'docker','github/codeql-action':'security','ossf/':'security','sigstore/':'security','codecov/':'security','step-security/':'security','anchore/':'security','aws-actions/':'cloud','google-github-actions/':'cloud','azure/':'cloud','hashicorp/setup-terraform':'cloud','aquasecurity/':'canary','reviewdog/':'canary','tj-actions/':'canary'};
+function categorize(r){for(const[p,c]of Object.entries(CAT))if(r.startsWith(p))return c;return'third-party'}
+function timeAgo(d){if(!d)return'—';const m=Math.floor((Date.now()-new Date(d).getTime())/6e4);if(m<1)return'just now';if(m<60)return m+'m ago';const h=Math.floor(m/60);return h<24?h+'h ago':Math.floor(h/24)+'d ago'}
+function fmtDate(d){if(!d)return'';return new Date(d).toLocaleDateString('en-GB',{weekday:'long',year:'numeric',month:'long',day:'numeric'}).toUpperCase()}
+let cf='all',cs='repo',sa=true,D=null;
+function render(d){D=d;document.getElementById('dateline').textContent=fmtDate(d.generated_at);document.getElementById('poll-count').textContent=d.polls||0;document.getElementById('total-monitored').textContent=d.total_actions||0;document.getElementById('total-ok').textContent=d.total_ok||0;document.getElementById('total-changed').textContent=d.total_changed||0;document.getElementById('total-unknown').textContent=d.total_unknown||0;document.getElementById('last-checked').textContent='Last checked: '+timeAgo(d.generated_at);if(d.total_changed>0){document.getElementById('breaking').classList.add('active')}renderEvents(d.recent_events||[]);renderTable(d.actions||[]);renderTicker(d.actions||[],d.recent_events||[])}
+function renderEvents(ev){const el=document.getElementById('events-log');if(!ev.length){el.innerHTML='<div class="empty">No tag changes detected. All monitored actions are intact.</div>';return}el.innerHTML=ev.slice().reverse().map(e=>'<div class="event"><span class="time">'+timeAgo(e.detected_at)+'</span> <span class="action">'+e.repo+'@'+e.tag+'</span> repointed: <span style="color:var(--red)">'+(e.old_sha||'').slice(0,8)+'→'+(e.new_sha||'').slice(0,8)+'</span></div>').join('')}
+function renderTable(a){let f=cf==='all'?a:a.filter(x=>categorize(x.repo)===cf);f.sort((a,b)=>{let av=a[cs]||'',bv=b[cs]||'';return typeof av==='string'?(sa?av.localeCompare(bv):bv.localeCompare(av)):(sa?av-bv:bv-av)});document.getElementById('registry-body').innerHTML=f.map(a=>{const[o,n]=(a.repo||'').split('/');const sc=a.status==='ok'?'ok':a.status==='changed'?'changed':'unknown';const st=a.status==='ok'?'Verified':a.status==='changed'?'Changed':'Unknown';return'<tr><td class="action-name"><span class="owner">'+o+'/</span>'+n+'</td><td><span class="tag">'+(a.tag||'—')+'</span></td><td><span class="status-badge '+sc+'">'+st+'</span></td><td class="sha">'+(a.sha||'').slice(0,12)+'</td><td style="font-family:var(--mono);font-size:.7rem;color:var(--muted)">'+timeAgo(a.last_checked)+'</td></tr>'}).join('')}
+function renderTicker(a,ev){const items=['<span class="item"><span class="dot">●</span> '+a.filter(x=>x.status==='ok').length+' actions verified safe</span>'];if(ev.length)ev.slice(-5).forEach(e=>items.push('<span class="item"><span class="dot alert">●</span> '+e.repo+'@'+e.tag+' tag repointed</span>'));else items.push('<span class="item"><span class="dot">●</span> No tag changes detected</span>');document.getElementById('ticker').innerHTML=items.join('')+items.join('')}
+document.getElementById('filters').onclick=e=>{if(!e.target.classList.contains('filter-btn'))return;document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));e.target.classList.add('active');cf=e.target.dataset.filter;if(D)renderTable(D.actions||[])};
+document.querySelectorAll('.registry th').forEach(th=>th.onclick=()=>{const k=th.dataset.sort;if(k===cs)sa=!sa;else{cs=k;sa=true}if(D)renderTable(D.actions||[])});
+async function load(){try{const r=await fetch('status.json');if(r.ok){render(await r.json());return}}catch(e){}document.getElementById('events-log').innerHTML='<div class="empty">Loading status data...</div>'}
+load();setInterval(load,30000);
+</script>
+</body>
+</html>
