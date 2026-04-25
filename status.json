@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-25T02:33:38Z",
+  "generated_at": "2026-04-25T02:38:38Z",
   "polls": 5836,
   "total_actions": 375,
-  "total_ok": 80,
+  "total_ok": 75,
   "total_changed": 0,
-  "total_unknown": 295,
+  "total_unknown": 300,
   "actions": [
     {
       "repo": "8398a7/action-slack",
@@ -19,7 +19,7 @@
       "tag": "v1",
       "sha": "b17fbb00bdc0c0f63fcf166580804b4d2cdc2a42",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -35,7 +35,7 @@
       "tag": "v10",
       "sha": "bb4bb94c73936643d73d345b48fead3e96f90a5e",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -44,7 +44,7 @@
       "tag": "v13",
       "sha": "ed4dec634fd2ef689c7061d5647371d8248064f1",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -53,7 +53,7 @@
       "tag": "v16",
       "sha": "b4c9feab76d8025d1e83c653fa3990936df0e6c8",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -62,7 +62,7 @@
       "tag": "v19",
       "sha": "05f32210e84442804257b2a6f20b273450ec8265",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -71,7 +71,7 @@
       "tag": "v22",
       "sha": "07035fd053f7be764496c0f8d8f9f41f98305101",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -80,7 +80,7 @@
       "tag": "v23",
       "sha": "ce4853d43830c74c1753b39f3cf40f71c2031eb9",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -89,7 +89,7 @@
       "tag": "v1",
       "sha": "ef301417264190a1eb9f26fcf171642070085c5b",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -98,7 +98,7 @@
       "tag": "v2",
       "sha": "5bb39ff5d5a0e94dc9e2dc94eced0c6129743a57",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-04-14T08:26:08Z",
       "previous_sha": "ac5da7b151d5b8ed3d422ae8c357d1ff62ff9cb5"
     },
@@ -108,7 +108,7 @@
       "tag": "v6",
       "sha": "dbf207a670f7b7917a3a34f067dcaf7b132cb8d2",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -117,7 +117,7 @@
       "tag": "v7",
       "sha": "8c12ff729a98cfbcd3fe38b49f55eceb98a5ec02",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -126,7 +126,7 @@
       "tag": "v9",
       "sha": "a94899bca583c204427a224a7af87c02f9b325d5",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -144,29 +144,27 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "JS-DevTools/npm-publish",
       "tag": "v1",
-      "sha": "22595ff8c4d0d9f53cef0656fbb90fbe06ee885c",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
-    },
-    {
-      "status": "ok",
-      "repo": "JS-DevTools/npm-publish",
-      "tag": "v3",
-      "sha": "0f450656e71cb782526639ec9e3158e109122ac7",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
-    },
-    {
-      "repo": "JamesIves/github-pages-deploy-action",
-      "tag": "v4",
       "status": "unknown",
       "sha": "",
       "note": "Could not resolve tag"
+    },
+    {
+      "repo": "JS-DevTools/npm-publish",
+      "tag": "v3",
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
+    },
+    {
+      "status": "ok",
+      "repo": "JamesIves/github-pages-deploy-action",
+      "tag": "v4",
+      "sha": "d92aa235d04922e8f08b40ce78cc5442fcfbfa2f",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "MOZGIII/install-ldid-action",
@@ -190,14 +188,11 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "PyO3/maturin-action",
       "tag": "v1",
-      "sha": "423a6347767a8b16e65c2a7a7042e4a921528da8",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-04-09T15:26:17Z",
-      "previous_sha": "db323e2cf5679b7feb8bcb561a36b27a0bc19e79"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "Shopify/shopify-cla-action",
@@ -233,7 +228,7 @@
       "tag": "v1",
       "sha": "18f1af5e3544586314bbe15c0273249c770b2daf",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -242,7 +237,7 @@
       "tag": "v1",
       "sha": "2ce5d41b4b6aa8503e285553f75ed56e0a40bae0",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -251,7 +246,7 @@
       "tag": "v1",
       "sha": "e7f754b8e09f70ad8eb2c5aebf61e58e8403b210",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -269,11 +264,14 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "actions-rust-lang/setup-rust-toolchain",
       "tag": "v1",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "2b1f5e9b395427c92ee4e3331786ca3c37afe2d7",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-04-13T19:41:05Z",
+      "previous_sha": "150fca883cd4034361b621bd4e6a9d34e5143606"
     },
     {
       "repo": "actions/add-to-project",
@@ -540,7 +538,7 @@
       "tag": "v1",
       "sha": "99ff59c766ec6ff61fc82a582aa0f6c845561cf2",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-04-10T05:20:59Z",
       "previous_sha": "27ee3947af27742595373077af6b6c48305b97ce"
     },
@@ -636,13 +634,11 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "atlassian/gajira-login",
       "tag": "v3",
-      "sha": "b70a3adaf0e6642c40cd74c73b1d516dd4ad6e83",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "aws-actions/amazon-ecr-login",
@@ -741,7 +737,7 @@
       "tag": "v1",
       "sha": "711a9813957be17629fc6933afcd8bd132c57254",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -820,7 +816,7 @@
       "tag": "v10",
       "sha": "73e75d1a0cd4330597a571e8f9dedb41faa2fc4e",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -829,7 +825,7 @@
       "tag": "v12",
       "sha": "6a9a34cdd93d0ae4b4b59fd678660efb08109f2f",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -838,7 +834,7 @@
       "tag": "v14",
       "sha": "18cf96c7c98e048e10a83abd92116114cd8504be",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -847,7 +843,7 @@
       "tag": "v15",
       "sha": "ad2ddac53f961de1989924296a1f236fcfbaa4fc",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -856,7 +852,7 @@
       "tag": "v16",
       "sha": "97e5ff84d02b3b4f9936339f767e17f03c9252ed",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -865,7 +861,7 @@
       "tag": "v17",
       "sha": "1eb2ef646ac0255473d23a5907ad7b04ce94065c",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -939,22 +935,18 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "codecov/test-results-action",
       "tag": "v1",
-      "sha": "0fa95f0e1eeaafde2c782583b36b28ad0d8c77d3",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "containerd/project-checks",
       "tag": "v1",
-      "sha": "833ac8656a495f9ed05a5cd86bf1f04f777981a2",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "contributor-assistant/github-action",
@@ -971,18 +963,23 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "coverallsapp/github-action",
       "tag": "v2",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "5cbfd81b66ca5d10c19b062c04de0199c215fb6e",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "crate-ci/typos",
       "tag": "v1",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "141bf8d1d11823cd5dc44d6b3c17d83b19015bcb",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-04-13T15:06:06Z",
+      "previous_sha": "f06b85043a5ab470afbb0a5592456e733243983a"
     },
     {
       "repo": "crazy-max/ghaction-import-gpg",
@@ -1041,46 +1038,58 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "dawidd6/action-download-artifact",
       "tag": "v11",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "ac66b43f0e6a346234dd65d4d0c8fbb31cb316e5",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "dawidd6/action-download-artifact",
       "tag": "v12",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "0bd50d53a6d7fb5cb921e607957e9cc12b4ce392",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "dawidd6/action-download-artifact",
       "tag": "v19",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "8a338493df3d275e4a7a63bcff3b8fe97e51a927",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "dawidd6/action-download-artifact",
       "tag": "v2",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "b7ae8e834b3579243d2b8519bafd41922491bb88",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "dawidd6/action-download-artifact",
       "tag": "v6",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "bf251b5aa9c2f7eeb574a96ee720e24f801b7c11",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "dawidd6/action-download-artifact",
       "tag": "v9",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "07ab29fd4a977ae4d2b275087cf67563dfdf0295",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "denoland/setup-deno",
@@ -1258,13 +1267,11 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "dorny/test-reporter",
       "tag": "v1",
-      "sha": "3eeb9fc888e82e8be2fb356bbeec2750231672bc",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "dorny/test-reporter",
@@ -1274,13 +1281,11 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "dorny/test-reporter",
       "tag": "v3",
-      "sha": "1cc81a5edf733718d4850df304aaa21c05cd7280",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "dotnet/arcade",
@@ -1295,7 +1300,7 @@
       "tag": "v1",
       "sha": "3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1332,7 +1337,7 @@
       "tag": "v1",
       "sha": "8251c48667b97e88a0a24ec512f5b72a039fcea7",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-30T10:36:26Z",
       "previous_sha": "0a75ccf1c18916f948584bdc83392d72e26f58f7"
     },
@@ -1342,35 +1347,29 @@
       "tag": "v2",
       "sha": "d89dee975228ae261d22c15adcd03578634d429c",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
-      "status": "ok",
       "repo": "extractions/setup-just",
       "tag": "v1",
-      "sha": "69d82fb0233557aec017ef13706851d0694e0f1d",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "extractions/setup-just",
       "tag": "v2",
-      "sha": "dd310ad5a97d8e7b41793f8ef055398d51ad4de6",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "extractions/setup-just",
       "tag": "v3",
-      "sha": "f8a3cce218d9f83db3a2ecd90e41ac3de6cdfd9b",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "fossas/fossa-action",
@@ -1380,18 +1379,23 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "foundry-rs/foundry-toolchain",
       "tag": "v1",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "c7450ba673e133f5ee30098b3b54f444d3a2ca2d",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-04-23T11:01:12Z",
+      "previous_sha": "8789b3e21e6c11b2697f5eb56eddae542f746c10"
     },
     {
+      "status": "ok",
       "repo": "gaurav-nelson/github-action-markdown-link-check",
       "tag": "v1",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "499c1e7f3637c131334fa8e937c45144f79d72d2",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "getsentry/action-enforce-license-compliance",
@@ -1406,15 +1410,18 @@
       "tag": "v1",
       "sha": "c8e1c2009ab08259029170132c384f03c1064c0e",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "getsentry/craft",
       "tag": "v2",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "3dc647fee3586e57c7c31eb900fdec7cbb44f23f",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-04-23T12:21:08Z",
+      "previous_sha": "c248b38be4dbcdb95ba538f39a2336d7dd12b9f7"
     },
     {
       "repo": "getsentry/github-workflows",
@@ -1459,13 +1466,11 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "github/super-linter",
       "tag": "v3",
-      "sha": "34b2f8032d759425f6b42ea2e52231b33ae05401",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "status": "ok",
@@ -1473,7 +1478,7 @@
       "tag": "v4",
       "sha": "985ef206aaca4d560cb9ee2af2b42ba44adc1d55",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1482,7 +1487,7 @@
       "tag": "v5",
       "sha": "45fc0d88288beee4701c62761281edfee85655d7",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1491,17 +1496,15 @@
       "tag": "v6",
       "sha": "4e51915f4a812abf59fed160bb14595c0a38a9e7",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
-      "status": "ok",
       "repo": "github/super-linter",
       "tag": "v7",
-      "sha": "b807e99ddd37e444d189cfd2c2ca1274d8ae8ef1",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "gitleaks/gitleaks-action",
@@ -1516,7 +1519,7 @@
       "tag": "v1",
       "sha": "b625fbe08f3bccbe446d94fbf87fcc875a4f50ee",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1609,7 +1612,7 @@
       "tag": "v2",
       "sha": "fe583dc97e032f41ccc310ea5176f2d7306abbc4",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1618,7 +1621,7 @@
       "tag": "v3",
       "sha": "12318b01111bfa6462c00534ffa998f8b397b979",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1627,7 +1630,7 @@
       "tag": "v1",
       "sha": "f363687af2b328bcb892bcce5cc0f0660c1f64a2",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1685,7 +1688,7 @@
       "tag": "v1",
       "sha": "a2a70ab97602f0d0f2d23ff3c9f8d7144a99f6e7",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1694,7 +1697,7 @@
       "tag": "v1",
       "sha": "d0c3785880c08a358711ee8047f593cbcf1cdcfd",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1710,7 +1713,7 @@
       "tag": "v1",
       "sha": "621d0de22303d6decc3ee9d1858a70622a8db614",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1756,13 +1759,11 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "ibiqlik/action-yamllint",
       "tag": "v3",
-      "sha": "ae1abb2821b567e96742aa776f7b62c9b6a26bc8",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "ilammy/msvc-dev-cmd",
@@ -1779,11 +1780,13 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "jaxxstorm/action-install-gh-release",
       "tag": "v1",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "cd6b2b78ad38bdd294341cda064ec0692b06215b",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "jdx/mise-action",
@@ -1856,18 +1859,22 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "lycheeverse/lychee-action",
       "tag": "v1",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "2b973e86fc7b1f6b36a93795fe2c9c6ae1118621",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "lycheeverse/lychee-action",
       "tag": "v2",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "8646ba30535128ac92d33dfc9133794bfdd9b411",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "status": "ok",
@@ -1875,7 +1882,7 @@
       "tag": "v1",
       "sha": "0a2bfd2ca891da3552ae39be755aecdce60ed1bc",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1884,7 +1891,7 @@
       "tag": "v2",
       "sha": "a3d5bb52942181c125118a2be4b4664c3337aef6",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1893,7 +1900,7 @@
       "tag": "v3",
       "sha": "6f50bbb8ea47d56e62dee92392788acbc8192d0b",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1930,7 +1937,7 @@
       "tag": "v1",
       "sha": "d2892166405e47deea29d2052ab4cca1382df41e",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1939,7 +1946,7 @@
       "tag": "v3",
       "sha": "bddc3b922a9fc4398a96b7da18ec5a1ce7d75b93",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1948,17 +1955,15 @@
       "tag": "v5",
       "sha": "0ac283b4e65c1fb28ce6079dea5546ceca98ccbe",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
-      "status": "ok",
       "repo": "micnncim/action-label-syncer",
       "tag": "v1",
-      "sha": "3abd5ab72fda571e69fffd97bd4e0033dd5f495c",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "microsoft/setup-msbuild",
@@ -1975,41 +1980,32 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "mikepenz/action-junit-report",
       "tag": "v2",
-      "sha": "16c6f59a497424dc750067af7a7a6b18f5316fa8",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "mikepenz/action-junit-report",
       "tag": "v3",
-      "sha": "150e2f992e4fad1379da2056d1d1c279f520e058",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "mikepenz/action-junit-report",
       "tag": "v5",
-      "sha": "3585e9575db828022551b4231f165eb59a0e74e3",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "mikepenz/action-junit-report",
       "tag": "v6",
-      "sha": "bccf2e31636835cf0874589931c4116687171386",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-29T07:05:51Z",
-      "previous_sha": "49b2ca06f62aa7ef83ae6769a2179271e160d8e4"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "status": "ok",
@@ -2017,7 +2013,7 @@
       "tag": "v2",
       "sha": "6dcc2533cac0495148ed4046c438487e4dceaa23",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2070,11 +2066,13 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "nick-fields/retry",
       "tag": "v3",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
+      "first_seen": "2026-03-23T04:59:41Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-23T04:59:41Z"
     },
     {
       "repo": "octo-sts/action",
@@ -2119,40 +2117,32 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "peter-evans/create-issue-from-file",
       "tag": "v3",
-      "sha": "97e6f902a416aac38834e23fa52e166aad0437d2",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "peter-evans/create-issue-from-file",
       "tag": "v4",
-      "sha": "433e51abf769039ee20ba1293a088ca19d573b7f",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "peter-evans/create-issue-from-file",
       "tag": "v5",
-      "sha": "e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "peter-evans/create-issue-from-file",
       "tag": "v6",
-      "sha": "fca9117c27cdc29c6c4db3b86c48e4115a786710",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "peter-evans/create-or-update-comment",
@@ -2204,32 +2194,40 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "peter-evans/find-comment",
       "tag": "v1",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "d2dae40ed151c634e4189471272b57e76ec19ba8",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "peter-evans/find-comment",
       "tag": "v2",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "a54c31d7fa095754bfef525c0c8e5e5674c4b4b1",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "peter-evans/find-comment",
       "tag": "v3",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "3eae4d37986fb5a8592848f6a574fdf654e61f9e",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "peter-evans/find-comment",
       "tag": "v4",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "b30e6a3c0ed37e7c023ccd3f1db5c6c0b0c23aad",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-04-25T02:38:38Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "peter-evans/repository-dispatch",
@@ -2295,13 +2293,11 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "pulumi/action-install-pulumi-cli",
       "tag": "v2",
-      "sha": "b374ceb6168550de27c6eba92e01c1a774040e11",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "pulumi/action-release-by-pr-label",
@@ -2442,7 +2438,7 @@
       "tag": "v1",
       "sha": "0789410278cba39afd488d97a0e305ba35776bbf",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2451,7 +2447,7 @@
       "tag": "v1",
       "sha": "4410ae3f82f068bdb0234069a9bf2367923fb39a",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2460,7 +2456,7 @@
       "tag": "v2",
       "sha": "cdf0a2130cbcdfd82ba5fcac8e076370bf381b36",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2520,13 +2516,11 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "stCarolas/setup-maven",
       "tag": "v5",
-      "sha": "d6af6abeda15e98926a57b5aa970a96bb37f97d1",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "stefanzweifel/git-auto-commit-action",
@@ -2576,7 +2570,7 @@
       "tag": "v6",
       "sha": "1c4ffa94da44d39de74b3731c2a006bb68668ea0",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2585,7 +2579,7 @@
       "tag": "v7",
       "sha": "34dfdddf86c8da9508e3c52eb27bd8ac98d5d8a6",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2594,7 +2588,7 @@
       "tag": "v8",
       "sha": "d24d9629088c26de5cc684fbe17d1843469c37e0",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-31T21:01:36Z",
       "previous_sha": "aad5bb335d35ed78af3d794f9667fc4033162928"
     },
@@ -2709,7 +2703,7 @@
       "tag": "v1",
       "sha": "e2ffd4c5a70730dfd19046859dfaf366e3de6466",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2718,7 +2712,7 @@
       "tag": "v2",
       "sha": "9565281eda0731b1d20c4025c43339fb0a23812e",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2727,7 +2721,7 @@
       "tag": "v1",
       "sha": "32691ba7c9e7063bd457bd8f2a5703138591fa58",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2736,7 +2730,7 @@
       "tag": "v2",
       "sha": "3beb63f4bd073e61482598c45c71c1019b59b73a",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
+      "last_checked": "2026-04-25T02:38:38Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2775,14 +2769,11 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "umbrelladocs/action-linkspector",
       "tag": "v1",
-      "sha": "ec40914b4aaecb3c7648033eac41abbb0a6a33b8",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-04-25T02:33:38Z",
-      "last_changed": "2026-04-20T12:01:15Z",
-      "previous_sha": "e19b87d534bfb233ac51417c4c1c0ac5dfce2d33"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "zgosalvez/github-actions-ensure-sha-pinned-actions",
