@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-05T13:41:08Z",
-  "polls": 7349,
+  "generated_at": "2026-05-05T13:46:29Z",
+  "polls": 7350,
   "total_actions": 375,
-  "total_ok": 3,
+  "total_ok": 0,
   "total_changed": 0,
-  "total_unknown": 372,
+  "total_unknown": 375,
   "actions": [
     {
       "repo": "8398a7/action-slack",
@@ -273,31 +273,25 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "actions/checkout",
       "tag": "v3",
-      "sha": "f43a0e5ff2bd294095638e18286ca9a3d1956744",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-05T13:41:08Z",
-      "last_changed": "2026-03-23T04:59:41Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "actions/checkout",
       "tag": "v4",
-      "sha": "34e114876b0b11c390a56381ad16ebd13914f8d5",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-05T13:41:08Z",
-      "last_changed": "2026-03-23T04:59:41Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "actions/checkout",
       "tag": "v6",
-      "sha": "de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-05T13:41:08Z",
-      "last_changed": "2026-03-23T04:59:41Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "actions/configure-pages",
