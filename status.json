@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-10T13:58:26Z",
+  "generated_at": "2026-05-10T14:02:55Z",
   "polls": 8338,
   "total_actions": 375,
-  "total_ok": 130,
+  "total_ok": 137,
   "total_changed": 0,
-  "total_unknown": 245,
+  "total_unknown": 238,
   "actions": [
     {
       "repo": "8398a7/action-slack",
@@ -19,7 +19,7 @@
       "tag": "v1",
       "sha": "b17fbb00bdc0c0f63fcf166580804b4d2cdc2a42",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -30,11 +30,13 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "DavidAnson/markdownlint-cli2-action",
       "tag": "v10",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "bb4bb94c73936643d73d345b48fead3e96f90a5e",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "DavidAnson/markdownlint-cli2-action",
@@ -58,18 +60,23 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "DavidAnson/markdownlint-cli2-action",
       "tag": "v22",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "07035fd053f7be764496c0f8d8f9f41f98305101",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "DavidAnson/markdownlint-cli2-action",
       "tag": "v23",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "1628d9b2c73e580b4cb9b6b34303457a72478c5e",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-05-06T06:06:04Z",
+      "previous_sha": "6b51ade7a9e4a75a7ad929842dd298a3804ebe8b"
     },
     {
       "status": "ok",
@@ -77,7 +84,7 @@
       "tag": "v1",
       "sha": "ef301417264190a1eb9f26fcf171642070085c5b",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -86,7 +93,7 @@
       "tag": "v2",
       "sha": "5bb39ff5d5a0e94dc9e2dc94eced0c6129743a57",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-04-14T08:26:08Z",
       "previous_sha": "ac5da7b151d5b8ed3d422ae8c357d1ff62ff9cb5"
     },
@@ -96,7 +103,7 @@
       "tag": "v6",
       "sha": "dbf207a670f7b7917a3a34f067dcaf7b132cb8d2",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -105,7 +112,7 @@
       "tag": "v7",
       "sha": "8c12ff729a98cfbcd3fe38b49f55eceb98a5ec02",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -114,7 +121,7 @@
       "tag": "v9",
       "sha": "a94899bca583c204427a224a7af87c02f9b325d5",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -123,7 +130,7 @@
       "tag": "v3",
       "sha": "b443408cb28f351e417f0130520baf47ceddb297",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -132,7 +139,7 @@
       "tag": "v4",
       "sha": "8b8fd2cc23b2e18957157a9d923d75aa0c6f6ad5",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-04-13T14:26:16Z",
       "previous_sha": "c3fc4de07084f75a2b61a5b933069bda6edf3d5c"
     },
@@ -142,7 +149,7 @@
       "tag": "v1",
       "sha": "22595ff8c4d0d9f53cef0656fbb90fbe06ee885c",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -151,7 +158,7 @@
       "tag": "v3",
       "sha": "0f450656e71cb782526639ec9e3158e109122ac7",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -183,11 +190,14 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "PyO3/maturin-action",
       "tag": "v1",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "423a6347767a8b16e65c2a7a7042e4a921528da8",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-04-09T15:26:17Z",
+      "previous_sha": "db323e2cf5679b7feb8bcb561a36b27a0bc19e79"
     },
     {
       "repo": "Shopify/shopify-cla-action",
@@ -202,7 +212,7 @@
       "tag": "v1",
       "sha": "f2bcc6a8727bb87beb121b5eb658a70ff93baaf9",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -227,11 +237,13 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "actions-ecosystem/action-remove-labels",
       "tag": "v1",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "2ce5d41b4b6aa8503e285553f75ed56e0a40bae0",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "actions-rs/cargo",
@@ -276,11 +288,13 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "actions/attest",
       "tag": "v4",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "281a49d4cbb0a72c9575a50d18f6deb515a11deb",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "status": "ok",
@@ -288,7 +302,7 @@
       "tag": "v4",
       "sha": "0057852bfaa89a56745cba8c7296529d2fc39830",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-23T04:59:41Z"
     },
     {
@@ -297,7 +311,7 @@
       "tag": "v5",
       "sha": "27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-04-13T16:16:07Z",
       "previous_sha": "668228422ae6a00e4ad889ee87cd7109ec5666a7"
     },
@@ -309,20 +323,20 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "actions/checkout",
       "tag": "v4",
+      "sha": "34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "first_seen": "2026-03-23T04:59:41Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-23T04:59:41Z"
+    },
+    {
+      "repo": "actions/checkout",
+      "tag": "v6",
       "status": "unknown",
       "sha": "",
       "note": "Could not resolve tag"
-    },
-    {
-      "status": "ok",
-      "repo": "actions/checkout",
-      "tag": "v6",
-      "sha": "de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-23T04:59:41Z"
     },
     {
       "status": "ok",
@@ -330,7 +344,7 @@
       "tag": "v5",
       "sha": "983d7736d9b0ae728b81ab479565c72886d7745b",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-23T04:59:41Z"
     },
     {
@@ -339,15 +353,18 @@
       "tag": "v2",
       "sha": "fee1f7d63c2ff003460e3d139729b119787bc349",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-23T04:59:41Z"
     },
     {
+      "status": "ok",
       "repo": "actions/create-github-app-token",
       "tag": "v3",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "first_seen": "2026-03-23T04:59:41Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-04-11T06:45:59Z",
+      "previous_sha": "7bd03711494f032dfa3be3558f7dc8787b0be333"
     },
     {
       "status": "ok",
@@ -355,7 +372,7 @@
       "tag": "v1",
       "sha": "0cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -373,22 +390,18 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "actions/download-artifact",
       "tag": "v4",
-      "sha": "d3f86a106a0bac45b974a628896c90dbdf5c8093",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-23T04:59:41Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "actions/download-artifact",
       "tag": "v8",
-      "sha": "3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-23T04:59:41Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "actions/github-script",
@@ -398,13 +411,11 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "actions/github-script",
       "tag": "v8",
-      "sha": "ed597411d8f924073f98dfc5c65a23a2325f34cd",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-23T04:59:41Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "status": "ok",
@@ -412,7 +423,7 @@
       "tag": "v5",
       "sha": "8558fd74291d67161a8a78ce36a881fa63b766a9",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-23T04:59:41Z"
     },
     {
@@ -428,17 +439,15 @@
       "tag": "v0",
       "sha": "4bc8754ffc40f27910afb20287dbbbb675a4e978",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
-      "status": "ok",
       "repo": "actions/setup-dotnet",
       "tag": "v4",
-      "sha": "67a3573c9a986a3f9c594539f4ab511d57bb3ce9",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-23T04:59:41Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "actions/setup-dotnet",
@@ -453,7 +462,7 @@
       "tag": "v5",
       "sha": "40f1582b2485089dde7abd97c1529aa768e1baff",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-23T04:59:41Z"
     },
     {
@@ -462,7 +471,7 @@
       "tag": "v6",
       "sha": "4a3601121dd01d1626a1e23e37211e3254c1c06c",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-30T03:35:57Z",
       "previous_sha": "4b73464bb391d4059bd26b0524d20df3927bd417"
     },
@@ -479,27 +488,22 @@
       "tag": "v5",
       "sha": "be666c2fcd27ec809703dec50e508c2fdc7f6654",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-23T04:59:41Z"
     },
     {
-      "status": "ok",
       "repo": "actions/setup-node",
       "tag": "v4",
-      "sha": "49933ea5288caeca8642d1e84afbd3f7d6820020",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-23T04:59:41Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "actions/setup-node",
       "tag": "v6",
-      "sha": "48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-04-20T04:01:01Z",
-      "previous_sha": "53b83947a5a98c8d113130e565377fae1a50d02f"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "status": "ok",
@@ -507,12 +511,21 @@
       "tag": "v5",
       "sha": "a26af69be951a213d495a4c3e4e4022e16d87065",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-23T04:59:41Z"
     },
     {
+      "status": "ok",
       "repo": "actions/setup-python",
       "tag": "v6",
+      "sha": "a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "first_seen": "2026-03-23T04:59:41Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-23T04:59:41Z"
+    },
+    {
+      "repo": "actions/stale",
+      "tag": "v10",
       "status": "unknown",
       "sha": "",
       "note": "Could not resolve tag"
@@ -520,18 +533,11 @@
     {
       "status": "ok",
       "repo": "actions/stale",
-      "tag": "v10",
-      "sha": "b5d41d4e1d5dceea10e7104786b73624c18a190f",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-23T04:59:41Z"
-    },
-    {
-      "repo": "actions/stale",
       "tag": "v9",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "5bef64f19d7facfb25b37b414482c7164d639639",
+      "first_seen": "2026-03-23T04:59:41Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-23T04:59:41Z"
     },
     {
       "repo": "actions/upload-artifact",
@@ -546,7 +552,7 @@
       "tag": "v7",
       "sha": "043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-04-10T17:46:02Z",
       "previous_sha": "bbbca2ddaa5d8feaa63e36b76fdaad77386f024f"
     },
@@ -556,7 +562,7 @@
       "tag": "v4",
       "sha": "7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-23T04:59:41Z"
     },
     {
@@ -565,18 +571,15 @@
       "tag": "v1",
       "sha": "e8f9f06c4b078e705bd2ea027f0926603fc9b4d5",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
-      "status": "ok",
       "repo": "ad-m/github-push-action",
       "tag": "v1",
-      "sha": "99ff59c766ec6ff61fc82a582aa0f6c845561cf2",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-04-10T05:20:59Z",
-      "previous_sha": "27ee3947af27742595373077af6b6c48305b97ce"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "amannn/action-semantic-pull-request",
@@ -586,11 +589,13 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "anchore/sbom-action",
       "tag": "v0",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "e22c389904149dbc22b58101806040fa8d37a610",
+      "first_seen": "2026-03-23T04:59:41Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-23T04:59:41Z"
     },
     {
       "status": "ok",
@@ -598,7 +603,7 @@
       "tag": "v3",
       "sha": "3343887d815d7b07465f6fdcd395bd66508d486a",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -656,7 +661,7 @@
       "tag": "v2",
       "sha": "0448d28b97107c864cdac36fccec40207dd11e35",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -665,7 +670,7 @@
       "tag": "v3",
       "sha": "146cd51f235777a9bc491eead18e0d5a4b05406a",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -676,11 +681,13 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "atlassian/gajira-login",
       "tag": "v3",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "b70a3adaf0e6642c40cd74c73b1d516dd4ad6e83",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "status": "ok",
@@ -688,15 +695,18 @@
       "tag": "v1",
       "sha": "5a88a04c91d5c6f97aae0d9be790e64d9b1d47b7",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "aws-actions/amazon-ecr-login",
       "tag": "v2",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "fa648b43de3d4d023bcb3f89ed6940096949c419",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-05-06T20:41:23Z",
+      "previous_sha": "19d944daaa35f0fa1d3f7f8af1d3f2e5de25c5b7"
     },
     {
       "repo": "aws-actions/aws-codebuild-run-build",
@@ -706,11 +716,13 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "aws-actions/aws-secretsmanager-get-secrets",
       "tag": "v1",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "2b7c5f994fe38d757e4c07871332951a00876c8b",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "aws-actions/aws-secretsmanager-get-secrets",
@@ -720,23 +732,18 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "aws-actions/aws-secretsmanager-get-secrets",
       "tag": "v3",
-      "sha": "2cb1a461cbd4865ac4299648312e4704c646cd53",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-04-03T18:26:00Z",
-      "previous_sha": "3a411b6ec5cace3d626412dd917e7bfeac242cfa"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "aws-actions/closed-issue-message",
       "tag": "v1",
-      "sha": "3f5beaaa9f8095897f6d11d1b2e0234dda310ebf",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "status": "ok",
@@ -744,7 +751,7 @@
       "tag": "v2",
       "sha": "10aaf6366131b673a7c8b7742f8b3849f1d44f18",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -753,7 +760,7 @@
       "tag": "v4",
       "sha": "ff717079ee2060e4bcee96c4779b553acc87447c",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-23T04:59:41Z"
     },
     {
@@ -769,7 +776,7 @@
       "tag": "v4",
       "sha": "c6936d19ac18191dbacd98918a8a3371718d7725",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -794,11 +801,13 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "azure/login",
       "tag": "v2",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "1384c340ab2dda50fed2bee3041d1d87018aa5e8",
+      "first_seen": "2026-03-23T04:59:41Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-23T04:59:41Z"
     },
     {
       "repo": "azure/setup-helm",
@@ -808,29 +817,27 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "azure/setup-helm",
       "tag": "v3",
-      "sha": "5119fcb9089d432beecbf79bb2c7915207344b78",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-27T06:45:55Z"
-    },
-    {
-      "status": "ok",
-      "repo": "azure/setup-helm",
-      "tag": "v4",
-      "sha": "bf6a7d304bc2fdb57e0331155b7ebf2c504acf0a",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-27T06:45:55Z"
-    },
-    {
-      "repo": "azure/setup-helm",
-      "tag": "v5",
       "status": "unknown",
       "sha": "",
       "note": "Could not resolve tag"
+    },
+    {
+      "repo": "azure/setup-helm",
+      "tag": "v4",
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
+    },
+    {
+      "status": "ok",
+      "repo": "azure/setup-helm",
+      "tag": "v5",
+      "sha": "f0accbfd55e3332a28f721b8202b1016cecf90d5",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "benchmark-action/github-action-benchmark",
@@ -875,18 +882,22 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "cachix/cachix-action",
       "tag": "v12",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "6a9a34cdd93d0ae4b4b59fd678660efb08109f2f",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "cachix/cachix-action",
       "tag": "v14",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "18cf96c7c98e048e10a83abd92116114cd8504be",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "cachix/cachix-action",
@@ -903,11 +914,14 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "cachix/cachix-action",
       "tag": "v17",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "02b16339eddcf6ea27126a830c7f1992855cae13",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-05-09T00:35:58Z",
+      "previous_sha": "1eb2ef646ac0255473d23a5907ad7b04ce94065c"
     },
     {
       "repo": "cachix/install-nix-action",
@@ -964,18 +978,16 @@
       "tag": "v3",
       "sha": "9acf94ace14e7dc412b076f2c5c20b8ce93c79cd",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-04-15T20:51:03Z",
       "previous_sha": "da0e0dfe58b7a431659754fdf3f186c529afbe65"
     },
     {
-      "status": "ok",
       "repo": "codecov/codecov-action",
       "tag": "v4",
-      "sha": "b9fd7d16f6d7d1b5d2bec1a2887e65ceed900238",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-23T04:59:41Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "codecov/codecov-action",
@@ -990,15 +1002,17 @@
       "tag": "v1",
       "sha": "0fa95f0e1eeaafde2c782583b36b28ad0d8c77d3",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "containerd/project-checks",
       "tag": "v1",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "833ac8656a495f9ed05a5cd86bf1f04f777981a2",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "contributor-assistant/github-action",
@@ -1055,7 +1069,7 @@
       "tag": "v2",
       "sha": "8868a33591d21088edfc398968173a3b98d51706",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-04-23T12:11:07Z",
       "previous_sha": "c4603c03221bf738306d907d28d4942da99a0afa"
     },
@@ -1193,18 +1207,22 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "docker/bake-action",
       "tag": "v2",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "6c87dcca988e4e074e3ab1f976a70f63ec9673fb",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "docker/bake-action",
       "tag": "v5",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "4a9a8d494466d37134e2bfca2d3a8de8fb2681ad",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "docker/bake-action",
@@ -1226,41 +1244,41 @@
       "tag": "v5",
       "sha": "ca052bb54ab0790a636c9b5f226502c73d547a25",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-23T04:59:41Z"
     },
     {
+      "status": "ok",
       "repo": "docker/build-push-action",
       "tag": "v6",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
-    },
-    {
-      "status": "ok",
-      "repo": "docker/build-push-action",
-      "tag": "v7",
-      "sha": "bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "sha": "10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-04-10T10:05:59Z",
-      "previous_sha": "d08e5c354a6adb9ed34480a06d141179aa583294"
-    },
-    {
-      "status": "ok",
-      "repo": "docker/login-action",
-      "tag": "v3",
-      "sha": "c94ce9fb468520275223c153574b00df6fe4bcc9",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-23T04:59:41Z"
     },
     {
-      "repo": "docker/login-action",
-      "tag": "v4",
+      "repo": "docker/build-push-action",
+      "tag": "v7",
       "status": "unknown",
       "sha": "",
       "note": "Could not resolve tag"
+    },
+    {
+      "repo": "docker/login-action",
+      "tag": "v3",
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
+    },
+    {
+      "status": "ok",
+      "repo": "docker/login-action",
+      "tag": "v4",
+      "sha": "4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "first_seen": "2026-03-23T04:59:41Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-04-02T17:31:01Z",
+      "previous_sha": "b45d80f862d83dbcd57f89517bcf500b2ab88fb2"
     },
     {
       "repo": "docker/metadata-action",
@@ -1270,20 +1288,20 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "docker/setup-buildx-action",
       "tag": "v3",
-      "sha": "8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-23T04:59:41Z"
-    },
-    {
-      "repo": "docker/setup-buildx-action",
-      "tag": "v4",
       "status": "unknown",
       "sha": "",
       "note": "Could not resolve tag"
+    },
+    {
+      "status": "ok",
+      "repo": "docker/setup-buildx-action",
+      "tag": "v4",
+      "sha": "4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "first_seen": "2026-03-23T04:59:41Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-23T04:59:41Z"
     },
     {
       "repo": "docker/setup-qemu-action",
@@ -1298,7 +1316,7 @@
       "tag": "v4",
       "sha": "ce360397dd3f832beb865e1373c09c0e9f86d70a",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-23T04:59:41Z"
     },
     {
@@ -1307,18 +1325,15 @@
       "tag": "v1",
       "sha": "e986ce0bb60df51c6c9f5ccbf853d1b5bd1ca14c",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
-      "status": "ok",
       "repo": "dorny/paths-filter",
       "tag": "v3",
-      "sha": "6852f92c20ea7fd3b0c25de3b5112db3a98da050",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-04-15T05:36:04Z",
-      "previous_sha": "de90cc6fb38fc0963ad72b210f1f284cd68cea36"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "status": "ok",
@@ -1326,7 +1341,7 @@
       "tag": "v1",
       "sha": "3eeb9fc888e82e8be2fb356bbeec2750231672bc",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1335,7 +1350,7 @@
       "tag": "v2",
       "sha": "4a2e97665d5fa767581ef38eca97b9694bd4eef4",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1344,7 +1359,7 @@
       "tag": "v3",
       "sha": "1cc81a5edf733718d4850df304aaa21c05cd7280",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1360,7 +1375,7 @@
       "tag": "v1",
       "sha": "3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1399,13 +1414,11 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "errata-ai/vale-action",
       "tag": "v2",
-      "sha": "d89dee975228ae261d22c15adcd03578634d429c",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "status": "ok",
@@ -1413,7 +1426,7 @@
       "tag": "v1",
       "sha": "69d82fb0233557aec017ef13706851d0694e0f1d",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1422,15 +1435,17 @@
       "tag": "v2",
       "sha": "dd310ad5a97d8e7b41793f8ef055398d51ad4de6",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "extractions/setup-just",
       "tag": "v3",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "f8a3cce218d9f83db3a2ecd90e41ac3de6cdfd9b",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "fossas/fossa-action",
@@ -1480,7 +1495,7 @@
       "tag": "v2",
       "sha": "1949ea01ec2da6139d1bcc306c372e6aea76fb72",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1489,7 +1504,7 @@
       "tag": "v3",
       "sha": "26f565c05d0dd49f703d238706b775883037d76b",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1498,19 +1513,16 @@
       "tag": "v3",
       "sha": "52485aec7be33610227643b0fe83936b8b5f061a",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-05-08T06:21:02Z",
       "previous_sha": "53e96ec3b35fce51c141c0d6f0e31028a448722d"
     },
     {
-      "status": "ok",
       "repo": "github/codeql-action",
       "tag": "v4",
-      "sha": "5e316336eb4f107009e477d4bfbfff13d7250fae",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-05-07T16:01:27Z",
-      "previous_sha": "ed410739ba306e4ebe5e123421a6bd694e494a2b"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "github/gh-aw",
@@ -1527,11 +1539,13 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "github/super-linter",
       "tag": "v3",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "34b2f8032d759425f6b42ea2e52231b33ae05401",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "status": "ok",
@@ -1539,7 +1553,7 @@
       "tag": "v4",
       "sha": "985ef206aaca4d560cb9ee2af2b42ba44adc1d55",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1548,7 +1562,7 @@
       "tag": "v5",
       "sha": "45fc0d88288beee4701c62761281edfee85655d7",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1557,7 +1571,7 @@
       "tag": "v6",
       "sha": "4e51915f4a812abf59fed160bb14595c0a38a9e7",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1566,26 +1580,22 @@
       "tag": "v7",
       "sha": "b807e99ddd37e444d189cfd2c2ca1274d8ae8ef1",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
-      "status": "ok",
       "repo": "gitleaks/gitleaks-action",
       "tag": "v2",
-      "sha": "dcedce43c6f43de0b836d1fe38946645c9c638dc",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "golang/govulncheck-action",
       "tag": "v1",
-      "sha": "b625fbe08f3bccbe446d94fbf87fcc875a4f50ee",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "golangci/golangci-lint-action",
@@ -1595,33 +1605,24 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "golangci/golangci-lint-action",
       "tag": "v9",
-      "sha": "1e7e51e771db61008b38414a730f564565cf7c20",
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
+    },
+    {
+      "status": "ok",
+      "repo": "google-github-actions/auth",
+      "tag": "v2",
+      "sha": "c200f3691d83b41bf9bbd8638997a462592937ed",
       "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-23T04:59:41Z"
     },
     {
-      "repo": "google-github-actions/auth",
-      "tag": "v2",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
-    },
-    {
-      "status": "ok",
       "repo": "google-github-actions/get-secretmanager-secrets",
       "tag": "v1",
-      "sha": "4d6d3dfd94110800dda8d84109cb6da0f6a5919d",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-27T06:45:55Z"
-    },
-    {
-      "repo": "google-github-actions/get-secretmanager-secrets",
-      "tag": "v2",
       "status": "unknown",
       "sha": "",
       "note": "Could not resolve tag"
@@ -1629,11 +1630,18 @@
     {
       "status": "ok",
       "repo": "google-github-actions/get-secretmanager-secrets",
-      "tag": "v3",
-      "sha": "bc9c54b29fdffb8a47776820a7d26e77b379d262",
+      "tag": "v2",
+      "sha": "2b5f97c5a4b9c105e64646762ad4fc3f5128e6f5",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
+    },
+    {
+      "repo": "google-github-actions/get-secretmanager-secrets",
+      "tag": "v3",
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "google-github-actions/setup-gcloud",
@@ -1655,15 +1663,17 @@
       "tag": "v2",
       "sha": "e427ad8a34f8676edf47cf7d7925499adf3eb74f",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "google-github-actions/setup-gcloud",
       "tag": "v3",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "googleapis/release-please-action",
@@ -1673,13 +1683,11 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "goreleaser/goreleaser-action",
       "tag": "v6",
-      "sha": "e435ccd777264be153ace6237001ef4d979d3a7a",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-23T04:59:41Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "status": "ok",
@@ -1687,7 +1695,7 @@
       "tag": "v2",
       "sha": "fe583dc97e032f41ccc310ea5176f2d7306abbc4",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1696,7 +1704,7 @@
       "tag": "v3",
       "sha": "12318b01111bfa6462c00534ffa998f8b397b979",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1742,13 +1750,11 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "hashicorp/setup-terraform",
       "tag": "v3",
-      "sha": "b9cd54a3c349d3f38e8881555d616ced269862dd",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-23T04:59:41Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "hashicorp/vault-workflows-common",
@@ -1758,11 +1764,13 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "haya14busa/action-bumpr",
       "tag": "v1",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "a2a70ab97602f0d0f2d23ff3c9f8d7144a99f6e7",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "haya14busa/action-cond",
@@ -1777,7 +1785,7 @@
       "tag": "v1",
       "sha": "724dad2ebbce6e461a129d66004d8c11469e0845",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1830,11 +1838,13 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "ibiqlik/action-yamllint",
       "tag": "v3",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "ae1abb2821b567e96742aa776f7b62c9b6a26bc8",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "status": "ok",
@@ -1842,7 +1852,7 @@
       "tag": "v1",
       "sha": "0b201ec74fa43914dc39ae48a89fd1d8cb592756",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1881,14 +1891,11 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "jenkins-infra/github-reusable-workflows",
       "tag": "v1",
-      "sha": "791f6a10b7e9084eb9d6742293df4a562a801a8d",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-04-02T13:06:03Z",
-      "previous_sha": "e363d9f9c7b5a757ad75a3a40663fd1158ebc811"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "status": "ok",
@@ -1896,7 +1903,7 @@
       "tag": "v1",
       "sha": "8c5d1f581d6e39e7c89c4f36df40c27af2ae1ca7",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1905,7 +1912,7 @@
       "tag": "v2",
       "sha": "5b7d35e9eb25d47e2e82fcbcd64adb3e5169a8c0",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1951,18 +1958,22 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "magefile/mage-action",
       "tag": "v1",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "0a2bfd2ca891da3552ae39be755aecdce60ed1bc",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "magefile/mage-action",
       "tag": "v2",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "a3d5bb52942181c125118a2be4b4664c3337aef6",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "status": "ok",
@@ -1970,7 +1981,7 @@
       "tag": "v3",
       "sha": "6f50bbb8ea47d56e62dee92392788acbc8192d0b",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -1993,7 +2004,7 @@
       "tag": "v2",
       "sha": "076a92699259d81d1c607bd91f0e1e9d45fd3151",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2002,7 +2013,7 @@
       "tag": "v1",
       "sha": "1242409711ff5721add51979e9e11e23ebb7e5a4",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2032,7 +2043,7 @@
       "tag": "v1",
       "sha": "3abd5ab72fda571e69fffd97bd4e0033dd5f495c",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2041,7 +2052,7 @@
       "tag": "v1",
       "sha": "58cfbbe248a38878146e7240e9f5ad8a1d58be35",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2050,22 +2061,26 @@
       "tag": "v2",
       "sha": "6fb02220983dee41ce7ae257b6f4d8f9bf5ed4ce",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "mikepenz/action-junit-report",
       "tag": "v2",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "16c6f59a497424dc750067af7a7a6b18f5316fa8",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "mikepenz/action-junit-report",
       "tag": "v3",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "150e2f992e4fad1379da2056d1d1c279f520e058",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "status": "ok",
@@ -2073,7 +2088,7 @@
       "tag": "v5",
       "sha": "3585e9575db828022551b4231f165eb59a0e74e3",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2082,16 +2097,18 @@
       "tag": "v6",
       "sha": "bccf2e31636835cf0874589931c4116687171386",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-29T07:05:51Z",
       "previous_sha": "49b2ca06f62aa7ef83ae6769a2179271e160d8e4"
     },
     {
+      "status": "ok",
       "repo": "miniscruff/changie-action",
       "tag": "v2",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "6dcc2533cac0495148ed4046c438487e4dceaa23",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "status": "ok",
@@ -2099,7 +2116,7 @@
       "tag": "v2",
       "sha": "0b9d1eefc08b472d80c4bceda72b88e76c001d6f",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2108,7 +2125,7 @@
       "tag": "v3",
       "sha": "cf9e5a0dbc19b50c5c3bb7b7f8b8dac0440fde57",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2117,7 +2134,7 @@
       "tag": "v1",
       "sha": "aa9cf72a2e3105665c82fee3de5f46e6a26dba76",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2126,7 +2143,7 @@
       "tag": "v2",
       "sha": "c96a9caed2a8cc0ed55e1f105725e383d63569d0",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2135,7 +2152,7 @@
       "tag": "v3",
       "sha": "a1efecd81fb086a26f3d5135544a6d36f7c90139",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-04-23T19:31:04Z",
       "previous_sha": "0a4765e1688aeb2bdb9f3aed40ec986a3daedfa3"
     },
@@ -2145,7 +2162,7 @@
       "tag": "v1",
       "sha": "b96ff604b2300989cd1105e3fad09199fca56681",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2210,7 +2227,7 @@
       "tag": "v3",
       "sha": "97e6f902a416aac38834e23fa52e166aad0437d2",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2219,7 +2236,7 @@
       "tag": "v4",
       "sha": "433e51abf769039ee20ba1293a088ca19d573b7f",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2228,7 +2245,7 @@
       "tag": "v5",
       "sha": "e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2237,7 +2254,7 @@
       "tag": "v6",
       "sha": "fca9117c27cdc29c6c4db3b86c48e4115a786710",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2248,13 +2265,11 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "peter-evans/create-or-update-comment",
       "tag": "v2",
-      "sha": "67dcc547d311b736a8e6c5c236542148a47adc3d",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "peter-evans/create-or-update-comment",
@@ -2264,31 +2279,25 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "peter-evans/create-or-update-comment",
       "tag": "v4",
-      "sha": "71345be0265236311c031f5c7866368bd1eff043",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "peter-evans/create-or-update-comment",
       "tag": "v5",
-      "sha": "e8674b075228eee787fea43ef493e45ece1004c9",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "peter-evans/create-pull-request",
       "tag": "v7",
-      "sha": "22a9089034f40e5a961c8808d113e2c98fb63676",
-      "first_seen": "2026-03-23T04:59:41Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-23T04:59:41Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "peter-evans/create-pull-request",
@@ -2394,7 +2403,7 @@
       "tag": "v2",
       "sha": "b374ceb6168550de27c6eba92e01c1a774040e11",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2487,7 +2496,7 @@
       "tag": "v2",
       "sha": "70f4dee990796918b78d040e3278474bdbd348a7",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2498,23 +2507,18 @@
       "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "release-drafter/release-drafter",
       "tag": "v6",
-      "sha": "67e173cadb2fbd3de94f4a861e0c48c913b462ae",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
-      "status": "ok",
       "repo": "release-drafter/release-drafter",
       "tag": "v7",
-      "sha": "da8b9b696abad2ad997580e49f4c1c2e03cc2bd2",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-05-08T07:31:00Z",
-      "previous_sha": "ec0763817cb51182ef86848b090642f2a47902aa"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "repo": "renovatebot/github-action",
@@ -2529,7 +2533,7 @@
       "tag": "v2",
       "sha": "7e79a9f5dc3ad0ce53138f01df2fad14a04831c5",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2538,18 +2542,16 @@
       "tag": "v1",
       "sha": "e0207a28405ecad11953ba625a95d92f7889572a",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-31T11:16:10Z",
       "previous_sha": "a40b7d35e62844ec9c0096ff3f5ff48579c90759"
     },
     {
-      "status": "ok",
       "repo": "reviewdog/action-misspell",
       "tag": "v1",
-      "sha": "0789410278cba39afd488d97a0e305ba35776bbf",
-      "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
-      "last_changed": "2026-03-27T06:45:55Z"
+      "status": "unknown",
+      "sha": "",
+      "note": "Could not resolve tag"
     },
     {
       "status": "ok",
@@ -2557,15 +2559,17 @@
       "tag": "v1",
       "sha": "4410ae3f82f068bdb0234069a9bf2367923fb39a",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "rtCamp/action-slack-notify",
       "tag": "v2",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "cdf0a2130cbcdfd82ba5fcac8e076370bf381b36",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "ruby/setup-ruby",
@@ -2596,11 +2600,13 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "sigstore/cosign-installer",
       "tag": "v3",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "f713795cb21599bc4e5c4b58cbad1da852d7eeb9",
+      "first_seen": "2026-03-23T04:59:41Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-23T04:59:41Z"
     },
     {
       "repo": "slackapi/slack-github-action",
@@ -2629,7 +2635,7 @@
       "tag": "v5",
       "sha": "d6af6abeda15e98926a57b5aa970a96bb37f97d1",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2654,11 +2660,14 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "step-security/harden-runner",
       "tag": "v2",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "a5ad31d6a139d249332a2605b85202e8c0b78450",
+      "first_seen": "2026-03-23T04:59:41Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-05-02T16:31:00Z",
+      "previous_sha": "8d3c67de8e2fe68ef647c8db1e6a09f647780f40"
     },
     {
       "status": "ok",
@@ -2666,7 +2675,7 @@
       "tag": "v1",
       "sha": "bf464a43d42e2356a46bde360ea3f8adf4efab45",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-05-07T02:11:03Z",
       "previous_sha": "3674e28cc5c10e58c911813fa92a2f9b84200b59"
     },
@@ -2704,7 +2713,7 @@
       "tag": "v2",
       "sha": "29e53e917877a24fad85510ded594ab3c9ca12de",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2713,7 +2722,7 @@
       "tag": "v2",
       "sha": "42dc69e1aa15d09112580998cf2ef0119e2e91ae",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2736,7 +2745,7 @@
       "tag": "v4",
       "sha": "623b016c454ae55181c010cb611bd5d7028102c9",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2745,7 +2754,7 @@
       "tag": "v6",
       "sha": "f27caffdd0fb9b13f4fc191c016bb4e0632844af",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2754,7 +2763,7 @@
       "tag": "v1",
       "sha": "6de6da0cefcc6b4b7a5cbea4d79d97060733093c",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2763,7 +2772,7 @@
       "tag": "v1",
       "sha": "8b94ff23f7bdc3417836febf3d937f13ed0e6fd4",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2772,7 +2781,7 @@
       "tag": "v3",
       "sha": "70fc4c2c9e8c7a0ef81515821510feb2c66fe31a",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2781,7 +2790,7 @@
       "tag": "v4",
       "sha": "6e87008f9dd1fe3e34e66aca6c97b4a69f72a7f4",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2790,7 +2799,7 @@
       "tag": "v5",
       "sha": "6770de8d186019a148cc2b144e8bfa627f7d4aa8",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2799,7 +2808,7 @@
       "tag": "v6",
       "sha": "eb0f7c1b77f191dee552664e7884849ce3dd5176",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
@@ -2838,18 +2847,22 @@
       "note": "Could not resolve tag"
     },
     {
+      "status": "ok",
       "repo": "tibdex/github-app-token",
       "tag": "v1",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "32691ba7c9e7063bd457bd8f2a5703138591fa58",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
+      "status": "ok",
       "repo": "tibdex/github-app-token",
       "tag": "v2",
-      "status": "unknown",
-      "sha": "",
-      "note": "Could not resolve tag"
+      "sha": "3beb63f4bd073e61482598c45c71c1019b59b73a",
+      "first_seen": "2026-03-27T06:45:55Z",
+      "last_checked": "2026-05-10T14:02:55Z",
+      "last_changed": "2026-03-27T06:45:55Z"
     },
     {
       "repo": "tj-actions/changed-files",
@@ -2892,7 +2905,7 @@
       "tag": "v1",
       "sha": "ec40914b4aaecb3c7648033eac41abbb0a6a33b8",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-04-20T12:01:15Z",
       "previous_sha": "e19b87d534bfb233ac51417c4c1c0ac5dfce2d33"
     },
@@ -2902,7 +2915,7 @@
       "tag": "v1",
       "sha": "475903b3f3e9f7659fccdd1400c1f6c1dc37d7b0",
       "first_seen": "2026-03-27T06:45:55Z",
-      "last_checked": "2026-05-10T13:58:26Z",
+      "last_checked": "2026-05-10T14:02:55Z",
       "last_changed": "2026-03-27T06:45:55Z"
     },
     {
